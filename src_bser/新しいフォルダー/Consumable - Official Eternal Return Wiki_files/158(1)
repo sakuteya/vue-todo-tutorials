@@ -1,0 +1,51 @@
+!function(w, d){
+    function imgSrcToElement(src, type, d) {
+        var img = d.createElement('img');
+        img.height = 1;
+        img.width = 1;
+        img.style.display = 'none';
+        img.src = src;
+        img.alt = '';
+        return img;
+    }
+    function scriptSrcToElement(w, d, t, u) {
+        var a = d.createElement(t);
+        a.async = true;
+        a.crossorigin = 'anonymous';
+        a.src = u;
+        var s = d.getElementsByTagName(t)[0];
+        s.parentNode.insertBefore(a, s);
+    }
+    (function (d) {
+        var pixels = JSON.parse('[]');
+        pixels.forEach(function (pixel_with_type) {
+            var t = pixel_with_type[0];
+            var p = pixel_with_type[1];
+            if (t === 'fplus' || t === 'halo') {
+                scriptSrcToElement(w, d, 'script', p);
+            } else {
+                var img = imgSrcToElement(p, t, d);
+                d.body.appendChild(img);
+            }
+        })
+    })(d);
+    (function (w, d, t, u) {
+        w.auvars = w.auvars || {};
+        w.auvars['158'] = {
+            t: '9134a6b15d5a0435b7d59a6a592fe363',
+            p: '158',
+            a: '3070e6f8-8dc6-43d6-af24-9f8017d1bc5f',
+            ty: 'passive',
+            hpx: JSON.parse('[]'),
+        };
+        w.auvars.t = '9134a6b15d5a0435b7d59a6a592fe363';
+        w.auvars.p = '158';
+        w.auvars.a = '3070e6f8-8dc6-43d6-af24-9f8017d1bc5f';
+        w.auvars.ty = 'passive';
+        var a = d.createElement(t);
+        a.defer = true;
+        a.src = u;
+        var s = d.getElementsByTagName(t)[0];
+        s.parentNode.insertBefore(a, s);
+    })(w, d, 'script', 'https://p.ad.gt/api/v1/p/158');
+}(window, document);

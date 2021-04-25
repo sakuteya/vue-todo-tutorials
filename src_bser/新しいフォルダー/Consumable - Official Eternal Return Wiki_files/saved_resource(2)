@@ -1,0 +1,38 @@
+
+var ftGUID_4158941="4497E949B07FEB";
+var ftConfID_4158941="21768549";
+var ftParams_4158941="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_ifb=1&ft_domain=eternalreturn.gamepedia.com&ft_agentEnv=0&ft_referrer=https%3A%2F%2Feternalreturn.gamepedia.com%2F&ft_section=__11680040552306628824238244140402313755&cachebuster=104892.07606405948";
+var ftKeyword_4158941="";
+var ftCustom_4158941="";
+var ftSection_4158941="__11680040552306628824238244140402313755";
+var ftSegment_4158941="w2c";
+var ftSegmentList_4158941=[{s:'w2c'}];
+var ftRuleMatch_4158941="0";
+var ftTimestamp_4158941="1612673912";
+var ftGeoC2_4158941="jp";
+var ftGeoState_4158941="14";
+var ftGeoCity_4158941="kawasaki";
+var ftISP_4158941="asahi net inc.";
+var ftSpeed_4158941="broadband";
+var ftDMA_4158941="392001";
+var ftLong_4158941="139.63";
+var ftLat_4158941="35.57";
+var ftPostal_4158941="213-0023";
+var ftTimeZone_4158941="900";
+var ftMobileCarrier_4158941="";
+var ftImp4158941 = {};
+ftImp4158941.privacy = "x";
+ftImp4158941.guidAge = "289";
+ftImp4158941.impID = "CE1C8129-CC58-8BED-0330-B5DFCAEC201B";
+ftImp4158941.duid = "FT:4497E949B07FEB";
+
+ftImp4158941.ft_tpplid = "";
+ftImp4158941.ft_c = {};
+ftImp4158941.gdpr = "";
+ftImp4158941.gdpr_consent = "";
+ftImp4158941.gdpr_pd = "";
+ftImp4158941.oob_consent = "0";
+ftImp4158941.gdprStoredConsent = "";
+ftImp4158941.us_privacy = "";
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/415/4158941/3147714/js/j-4158941-3147714.js" id="ftscript_m4158941" name="ftscript_m4158941"></scr'+'ipt>');

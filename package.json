@@ -1,0 +1,29 @@
+{
+  "name": "vue_rensyu_dayo",
+  "version": "1.0.0",
+  "description": "hoge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakuteya/vue-todo-tutorials.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakuteya/vue-todo-tutorials/issues"
+  },
+  "homepage": "https://github.com/sakuteya/vue-todo-tutorials#readme",
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
+  },
+  "dependencies": {
+    "eslint-config-vue": "^2.0.2",
+    "eslint-plugin-vue": "^7.0.0-beta.3"
+  }
+}

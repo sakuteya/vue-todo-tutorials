@@ -1,0 +1,130 @@
+body {
+  background-color: darkgreen;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.pai {
+  height: 90px;
+  width: 66px;
+  display: block;
+}
+
+/* 萬子 */
+.man1 {
+  background-image: url("./ma-janpai/man1-66-90-l-emb.png");
+}
+.man2 {
+  background-image: url("./ma-janpai/man2-66-90-l-emb.png");
+}
+.man3 {
+  background-image: url("./ma-janpai/man3-66-90-l-emb.png");
+}
+.man4 {
+  background-image: url("./ma-janpai/man4-66-90-l-emb.png");
+}
+.man5 {
+  background-image: url("./ma-janpai/man5-66-90-l-emb.png");
+}
+.man6 {
+  background-image: url("./ma-janpai/man6-66-90-l-emb.png");
+}
+.man7 {
+  background-image: url("./ma-janpai/man7-66-90-l-emb.png");
+}
+.man8 {
+  background-image: url("./ma-janpai/man8-66-90-l-emb.png");
+}
+.man9 {
+  background-image: url("./ma-janpai/man9-66-90-l-emb.png");
+}
+.man5a {
+  background-image: url("./ma-janpai/aka3-66-90-l-emb.png");
+}
+/* 筒子 */
+.pin1 {
+  background-image: url("./ma-janpai/pin1-66-90-l-emb.png");
+}
+.pin2 {
+  background-image: url("./ma-janpai/pin2-66-90-l-emb.png");
+}
+.pin3 {
+  background-image: url("./ma-janpai/pin3-66-90-l-emb.png");
+}
+.pin4 {
+  background-image: url("./ma-janpai/pin4-66-90-l-emb.png");
+}
+.pin5 {
+  background-image: url("./ma-janpai/pin5-66-90-l-emb.png");
+}
+.pin6 {
+  background-image: url("./ma-janpai/pin6-66-90-l-emb.png");
+}
+.pin7 {
+  background-image: url("./ma-janpai/pin7-66-90-l-emb.png");
+}
+.pin8 {
+  background-image: url("./ma-janpai/pin8-66-90-l-emb.png");
+}
+.pin9 {
+  background-image: url("./ma-janpai/pin9-66-90-l-emb.png");
+}
+.pin5a {
+  background-image: url("./ma-janpai/aka1-66-90-l-emb.png");
+}
+/* 索子 */
+.sou1 {
+  background-image: url("./ma-janpai/sou1-66-90-l-emb.png");
+}
+.sou2 {
+  background-image: url("./ma-janpai/sou2-66-90-l-emb.png");
+}
+.sou3 {
+  background-image: url("./ma-janpai/sou3-66-90-l-emb.png");
+}
+.sou4 {
+  background-image: url("./ma-janpai/sou4-66-90-l-emb.png");
+}
+.sou5 {
+  background-image: url("./ma-janpai/sou5-66-90-l-emb.png");
+}
+.sou6 {
+  background-image: url("./ma-janpai/sou6-66-90-l-emb.png");
+}
+.sou7 {
+  background-image: url("./ma-janpai/sou7-66-90-l-emb.png");
+}
+.sou8 {
+  background-image: url("./ma-janpai/sou8-66-90-l-emb.png");
+}
+.sou9 {
+  background-image: url("./ma-janpai/sou9-66-90-l-emb.png");
+}
+.sou5a {
+  background-image: url("./ma-janpai/aka2-66-90-l-emb.png");
+}
+/* 字牌 */
+.ton {
+  background-image: url("./ma-janpai/ji1-66-90-l-emb.png");
+}
+.nan {
+  background-image: url("./ma-janpai/ji2-66-90-l-emb.png");
+}
+.sya {
+  background-image: url("./ma-janpai/ji3-66-90-l-emb.png");
+}
+.pei {
+  background-image: url("./ma-janpai/ji4-66-90-l-emb.png");
+}
+.haku {
+  background-image: url("./ma-janpai/ji5-66-90-l-emb.png");
+}
+.hatu {
+  background-image: url("./ma-janpai/ji6-66-90-l-emb.png");
+}
+.tyun {
+  background-image: url("./ma-janpai/ji7-66-90-l-emb.png");
+}

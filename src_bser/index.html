@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Vue.js App</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="ma-janpai.css" />
+    <link rel="stylesheet" href="wayaku-img.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>ちゅーとりある</h1>
+      <!-- <div>
+        <div class="container2">
+          <a href="" class="itemImg"
+            v-for="item in computedMakeableAll" 
+            v-bind:key="item.id"
+            v-bind:class="item.itemName"></a>
+        </div>
+      </div>
+      <button v-on:click="doInitAllItem()">ぶらさば</button>
+      <h2>~~~</h2>
+      <h2>~~~</h2> -->
+
+      <h3>☆移動区域</h3>
+      <div
+        v-for="(area, index) in computedArea" 
+        v-bind:key="index"
+      >
+        <input type="checkbox" v-bind:id="area.areaName" v-bind:value="area.areaName" v-model="checkedAreas">
+        <label v-bind:for="area.areaName">{{ area.displayAreaName }}</label>
+        <div class="container-items">
+          <span class="itemImg"
+            v-for="(item, index) in area.itemNames" 
+            v-bind:key="index"
+            v-bind:class="item"></span>
+        </div>
+      </div>
+      <p>checkedAreas: {{ checkedAreas }}</p>
+
+      <h3>☆移動区域出現アイテム</h3>
+      <!-- 同じ階層にv-bind:key="index"があるとぶつかる -->
+      <div>
+        <div class="container-items">
+          <span  class="itemImg"
+            v-for="(item, index) in computedCheckedAreasInItemNames" 
+            v-bind:key="index"
+            v-bind:class="item"></span>
+        </div>
+      </div>
+
+      <h3>☆作成可能アイテム</h3>
+      <!-- 同じ階層にv-bind:key="index"があるとぶつかる -->
+      <div>
+        <div class="container-items">
+          <span class="itemImg"
+            v-for="item in computedMakeableAll" 
+            v-bind:key="item.id"
+            v-bind:class="item.itemName"></span>
+        </div>
+      </div>
+
+      <h3>☆アイテムツリー</h3>
+      <div class="f-container-column">
+        <div class="f-container-row">
+          <div class="itemImg tyokopan"></div>
+        </div>
+        <div class="f-container-row">
+          <!-- <div class="itemImg pan"></div> -->
+          <div class="f-container-column">
+            <div class="f-container-row">
+              <div class="itemImg yakusou"></div>
+            </div>
+            <div class="f-container-row">
+              <div class="itemImg pan"></div>
+              <div class="itemImg tyoko"></div>
+            </div>
+          </div>
+          <!-- <div class="itemImg tyoko"></div> -->
+          <div class="f-container-column">
+            <div class="f-container-row">
+              <div class="itemImg oyu"></div>
+            </div>
+            <div class="f-container-row">
+              <div class="itemImg pan"></div>
+              <div class="itemImg tyoko"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

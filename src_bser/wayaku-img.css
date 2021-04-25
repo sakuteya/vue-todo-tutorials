@@ -1,0 +1,56 @@
+body {
+  background-color: darkgreen;
+}
+
+.container-items {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: darkgoldenrod
+}
+
+.itemImg {
+  height: 55px;
+  width: 100px;
+  display: block;
+}
+
+.f-container-row {
+  display: flex;
+	flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.f-container-column {
+  display: flex;
+  /* flex-direction:  column; */
+	flex-flow: column nowrap;
+  justify-content: space-around;
+}
+
+/* 画像 */
+.kanpotya {
+  background-image: url("./wayaku-img/kanpotya.png");
+}
+.oyu {
+  background-image: url("./wayaku-img/oyu.png");
+}
+.pan {
+  background-image: url("./wayaku-img/pan.png");
+}
+.tyokopan {
+  background-image: url("./wayaku-img/tyokopan.png");
+}
+.yakusou {
+  background-image: url("./wayaku-img/yakusou.png");
+}
+.tyoko {
+  background-image: url("./wayaku-img/tyoko.png");
+}
+
+.garlic {
+  background-image: url("./wayaku-img/Garlic.png");
+}
+
+.garlicBread {
+  background-image: url("./wayaku-img/Garlic_Bread.png");
+}
